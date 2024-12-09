@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+}
+main {
+    animation-name: hero;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+}
+@keyframes hero {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.head {
+    max-width: 980px;
+    margin: 15px auto 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.studysyncheadimage {
+    height: 30px;
+    width: 170px;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.headerlinks {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.headercontactus {
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.headercontactus:hover {
+    transform: scale(1.1);
+}
+.headerlinks a {
+    color: rgb(55, 53, 53);
+}
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+.headerlinks h3 {
+    transition: transform 0.3s ease;
+}
+.headerlinks h3:hover {
+    transform: scale(1.1);
+}
+
+.headercontactus {
+    background-color: #007bff;
+}
+
+.features-section {
+    padding: 10px 50px 40px 50px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.features-title {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.features-subtitle {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.features-list {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.feature-card {
+    background-color: #f0f8ff;
+    border-radius: 15px;
+    padding: 40px;
+    width: 400px;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: left;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.feature-card h3 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.features-container {
+    position: relative;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+}
+
+
