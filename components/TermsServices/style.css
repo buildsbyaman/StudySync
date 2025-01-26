@@ -1,6 +1,5 @@
 * {
     font-family: Arial, sans-serif;
-    background-color: #f4f7fc;
     color: #333;
     margin: 0;
     padding: 0;
@@ -40,7 +39,7 @@ img {
 .headercontactus {
     background-color: #007bff;
 }
-.headercontactus:hover, .startnow:hover {
+.headercontactus:hover {
     transform: scale(1.1);
 }
 .headerlinks a {
@@ -57,29 +56,6 @@ a {
 .headerlinks h3:hover {
     transform: scale(1.1);
 }
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.headerlinks {
-    display: flex;
-    gap: 20px;
-}
-
-.headerlinks h3 {
-    margin: 0;
-}
-
-.headerlinks a {
-    text-decoration: none;
-    color: #333;
-}
-
 main {
     padding: 40px 10%;
 }
@@ -115,37 +91,4 @@ main {
     font-size: 16px;
     line-height: 1.6;
     color: #555;
-}
-
-footer {
-    background-color: #1d3557;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footercontentup {
-    margin-bottom: 20px;
-}
-
-.footercontentup img {
-    width: 150px;
-}
-
-.footercontentup p {
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.footersvgs {
-    margin-top: 10px;
-}
-
-.footersvgs img {
-    width: 30px;
-    margin: 0 10px;
-}
-
-.footercontentdown p {
-    font-size: 14px;
 }
