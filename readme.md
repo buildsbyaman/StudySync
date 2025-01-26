@@ -1,5 +1,7 @@
 StudySync is a frontend web application created as a learning project to demonstrate core web development skills. The project focuses on offering an interactive and user-friendly.
 
+Deployed Link - https://study-sync-plum.vercel.app
+
 Key components of the StudySync project include:
 
 Home Page: The homepage introduces the platform’s core mission—seamless learning for brighter futures—through a compelling hero section that emphasizes its user-friendly approach to education. The page includes clear navigation to other sections of the site.
