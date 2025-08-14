@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   padding: 0;
@@ -20,7 +20,7 @@ body {
 
 .header {
   background: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   padding: 0.8rem 0;
   position: sticky;
   top: 0;
@@ -52,21 +52,21 @@ body {
 
 .nav a.active,
 .nav a:hover {
-  color: #007BFF;
+  color: #007bff;
 }
 
 .nav a.active::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -5px;
   left: 0;
   width: 100%;
   height: 2px;
-  background: #007BFF;
+  background: #007bff;
 }
 
 .btn-primary {
-  background: #007BFF;
+  background: #007bff;
   color: white;
   padding: 0.6rem 1rem;
   border-radius: 6px;
@@ -102,7 +102,7 @@ main {
   text-decoration: underline;
   text-align: center;
   margin: 20px 0;
-  color: #1D2D44;
+  color: #1d2d44;
 }
 
 .blog-container {
@@ -110,7 +110,7 @@ main {
   margin: 20px auto;
   padding: 20px;
   background-color: white;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -121,7 +121,7 @@ main {
   padding: 20px;
   border-radius: 8px;
   border: 1px solid #eee;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -129,7 +129,7 @@ main {
 
 .blog-title {
   font-size: 1.4rem;
-  color: #0F1A20;
+  color: #0f1a20;
   margin-bottom: 10px;
 }
 

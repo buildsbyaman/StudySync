@@ -26,7 +26,6 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  animation: hero 1s ease;
 }
 
 .header__content {
