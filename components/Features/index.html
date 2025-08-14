@@ -4,57 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Features | StudySync</title>
-    <link rel="shortcut icon" href="/assests/StudySyncfavicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../assests/StudySyncfavicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="head">
-            <div class="studysyncheadimage">
-                <img src="/assests/StudySync.png" alt="StudySync">
+    <header class="header">
+        <div class="container header__content">
+            <div class="logo">
+                <img src="../../assests/StudySync.png" alt="StudySync">
             </div>
-            <div class="headerlinks">
-                <h3><a href="/index.html">Home</a></h3>
-                <h3><a href="/components/Features/index.html">Features</a></h3>
-                <h3><a href="/components/Pricing/index.html">Pricing</a></h3>
-                <h3><a href="/components/Blogs/index.html">Blogs</a></h3>
-            </div>
-            <div class="headercontactus">
-                <h3><a href="/components/ContactUS/index.html">Contact Us</a></h3>
-            </div>
+            <nav class="nav">
+                <a href="../../index.html">Home</a>
+                <a href="../../components/Features/index.html" class="active">Features</a>
+                <a href="../../components/Pricing/index.html">Pricing</a>
+                <a href="../../components/Blogs/index.html">Blogs</a>
+            </nav>
+            <a href="../../components/ContactUS/index.html" class="btn-primary">Contact Us</a>
         </div>
     </header>
 
     <main>
-        <div class="features-container">
-            <div class="features-section">
-                <div class="features-title">Our Features</div>
-                <div class="features-subtitle">Explore the amazing features we offer, designed to make your learning experience smooth and productive!</div>
-    
-                <div class="features-list">
-                    <div class="feature-card">
+        <section class="features">
+            <div class="container">
+                <h1 class="features__title">Our Features</h1>
+                <p class="features__subtitle">
+                    Explore the amazing features we offer, designed to make your learning experience smooth and productive!
+                </p>
+
+                <div class="features__grid">
+                    <div class="feature-card" style="--color:#7BE0AD">
                         <h3>Interactive Lessons</h3>
-                        <p>Engage in interactive, hands-on lessons that make learning fun and effective. Enjoy personalized content with real-time feedback.</p>
+                        <p>Engage in interactive, hands-on lessons that make learning fun and effective with real-time feedback.</p>
                     </div>
-    
-                    <div class="feature-card">
+                    <div class="feature-card" style="--color:#EFD9CE;">
                         <h3>Community Collaboration</h3>
-                        <p>Join a vibrant community where you can collaborate with peers and mentors. Share knowledge and enhance your learning.</p>
+                        <p>Join a vibrant community to collaborate, share knowledge, and grow together.</p>
                     </div>
-    
-                    <div class="feature-card">
+                    <div class="feature-card" style="--color:#357DED; --text:#fff">
                         <h3>Customizable Tools</h3>
-                        <p>Leverage customizable tools to tailor your learning journey. Use advanced features and settings to match your study style.</p>
+                        <p>Leverage customizable tools and advanced settings to suit your study style.</p>
                     </div>
-    
-                    <div class="feature-card">
+                    <div class="feature-card" style="--color:#56EEF4;">
                         <h3>Fast Tracking</h3>
-                        <p>Fast-track your learning path with streamlined content designed to quickly get you up to speed on key topics.</p>
+                        <p>Fast-track your learning path with streamlined, goal-focused content.</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
-
 </body>
 </html>

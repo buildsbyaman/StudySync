@@ -2,7 +2,7 @@
 
 **StudySync** is a responsive frontend web application built as a learning project to demonstrate core web development skills. The platform simulates a modern educational website with a clean, user-friendly design, focused on accessibility, affordability, and innovation in learning.
 
-🔗 **Live Demo**: [https://study-sync-plum.vercel.app](https://study-sync-plum.vercel.app)
+🔗 **Live Demo**: [Click here to visit the site](https://study-sync-plum.vercel.app)
 
 ---
 
@@ -36,14 +36,6 @@ StudySync was designed with the aim of offering an engaging user interface that 
 ### 📬 Newsletter Signup
 - Users can subscribe to receive platform updates.
 - Encourages user engagement and platform growth.
-
----
-
-## 🛠️ Technologies Used
-
-- **HTML5** – Semantic structure and content layout
-- **CSS3** – Styling, Flexbox/Grid, and responsive design
-- **JavaScript (Vanilla)** – Interactivity and dynamic content
 
 ---
 

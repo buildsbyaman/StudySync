@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pricing | StudySync</title>
-    <link rel="shortcut icon" href="/assests/StudySyncfavicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <div class="head">
-            <div class="studysyncheadimage">
-                <img src="/assests/StudySync.png" alt="StudySync">
-            </div>
-            <div class="headerlinks">
-                <h3><a href="/index.html">Home</a></h3>
-                <h3><a href="/components/Features/index.html">Features</a></h3>
-                <h3><a href="/components/Pricing/index.html">Pricing</a></h3>
-                <h3><a href="/components/Blogs/index.html">Blogs</a></h3>
-            </div>
-            <div class="headercontactus">
-                <h3><a href="/components/ContactUS/index.html">Contact Us</a></h3>
-            </div>
+    <link
+      rel="shortcut icon"
+      href="../../assests/StudySyncfavicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__content">
+        <div class="logo">
+          <img src="../../assests/StudySync.png" alt="StudySync" />
         </div>
+        <nav class="nav">
+          <a href="../../index.html">Home</a>
+          <a href="../../components/Features/index.html">Features</a>
+          <a href="../../components/Pricing/index.html" class="active"
+            >Pricing</a
+          >
+          <a href="../../components/Blogs/index.html">Blogs</a>
+        </nav>
+        <a href="../../components/ContactUS/index.html" class="btn-primary"
+          >Contact Us</a
+        >
+      </div>
     </header>
-    
+
     <main>
-        <div class="pricing-section">
-            <div class="pricing-title">Choose Your Plan</div>
-            <div class="pricing-subtitle">We offer flexible pricing to suit every need. Pick the best plan for you!</div>
+      <section class="pricing-section">
+        <h1 class="pricing-title">Choose Your Plan</h1>
+        <p class="pricing-subtitle">
+          We offer flexible pricing to suit every need. Pick the best plan for
+          you!
+        </p>
 
-            <div class="pricing-plans">
-                
-                <div class="pricing-card">
-                    <h3>Basic Plan</h3>
-                    <div class="price">$19/month</div>
-                    <p>For individuals or small teams. Access to basic features and support.</p>
-                    <a href="/components/Pricing/paymentgateway.html" class="button">Pay Now</a>
-                </div>
+        <div class="pricing-plans">
+          <div class="pricing-card">
+            <h3>Basic Plan</h3>
+            <div class="price">$19/month</div>
+            <p>
+              For individuals or small teams. Access to basic features and
+              support.
+            </p>
+            <a href="paymentgateway.html" class="button">Pay Now</a>
+          </div>
 
-                <div class="pricing-card">
-                    <h3>Pro Plan</h3>
-                    <div class="price">$49/month</div>
-                    <p>For growing teams. Includes additional features and priority support.</p>
-                    <a href="/components/Pricing/paymentgateway.html" class="button">Pay Now</a>
-                </div>
+          <div class="pricing-card">
+            <h3>Pro Plan</h3>
+            <div class="price">$49/month</div>
+            <p>
+              For growing teams. Includes additional features and priority
+              support.
+            </p>
+            <a href="paymentgateway.html" class="button">Pay Now</a>
+          </div>
 
-                <div class="pricing-card">
-                    <h3>Enterprise Plan</h3>
-                    <div class="price">$99/month</div>
-                    <p>For large organizations. Full access to all features, custom support, and integration.</p>
-                    <a href="/components/Pricing/paymentgateway.html" class="button">Pay Now</a>
-                </div>
-            </div>
+          <div class="pricing-card">
+            <h3>Enterprise Plan</h3>
+            <div class="price">$99/month</div>
+            <p>
+              For large organizations. Full access to all features, custom
+              support, and integration.
+            </p>
+            <a href="paymentgateway.html" class="button">Pay Now</a>
+          </div>
         </div>
+      </section>
     </main>
-
-</body>
+  </body>
 </html>
